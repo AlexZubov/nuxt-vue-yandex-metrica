@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>nuxt-vue-yandex-metrica directive</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="NuxtVueYandexMetrica"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h4>{{ greeting }}</h4>
+        <nuxt-vue-yandex-metrica counter="123456" enable-webvisor="true"></nuxt-vue-yandex-metrica>
+
+        <strong>Usage code</strong><br>
+        <code>
+            &lt;nuxt-vue-yandex-metrica counter="123456" enable-webvisor="true"&gt;&lt;/nuxt-vue-yandex-metrica&gt;
+        </code>
+    </div>
+    <script async>
+    new Vue({
+        el: '#app',
+        data: {
+            greeting: 'Welcome to your app!'
+        }
+    })
+    </script>
+</body>
+
+</html>

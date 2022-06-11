@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-vue-yandex-metrica",
+  "version": "1.0.0",
+  "description": "plugin to insert Yandex.Metrica tags in your Vuejs app",
+  "main": "nuxt-vue-yandex-metrica.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexZubov/nuxt-vue-yandex-metrica.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue",
+    "nuxt",
+    "nuxtjs",
+    "yandex.metrica",
+    "yandex metrica"
+  ],
+  "author": "AlexZubov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexZubov/nuxt-vue-yandex-metrica/issues"
+  },
+  "homepage": "https://github.com/AlexZubov/nuxt-vue-yandex-metrica"
+}
